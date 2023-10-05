@@ -1,0 +1,39 @@
+PATH
+  remote: .
+  specs:
+    graal_ext_rb_example (0.1.0)
+      ffi
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    diff-lcs (1.5.0)
+    ffi (1.16.3)
+    rake (13.0.6)
+    rake-compiler (1.2.5)
+      rake
+    rspec (3.12.0)
+      rspec-core (~> 3.12.0)
+      rspec-expectations (~> 3.12.0)
+      rspec-mocks (~> 3.12.0)
+    rspec-core (3.12.2)
+      rspec-support (~> 3.12.0)
+    rspec-expectations (3.12.3)
+      diff-lcs (>= 1.2.0, < 2.0)
+      rspec-support (~> 3.12.0)
+    rspec-mocks (3.12.6)
+      diff-lcs (>= 1.2.0, < 2.0)
+      rspec-support (~> 3.12.0)
+    rspec-support (3.12.1)
+
+PLATFORMS
+  aarch64-linux
+
+DEPENDENCIES
+  graal_ext_rb_example!
+  rake (~> 13.0)
+  rake-compiler
+  rspec (~> 3.0)
+
+BUNDLED WITH
+   2.4.10

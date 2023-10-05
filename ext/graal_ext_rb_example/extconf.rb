@@ -6,10 +6,6 @@ require 'fileutils'
 ext_path = __dir__
 graal_path = "#{ext_path}/graal"
 
-File.write("#{ext_path}/.gitignore", <<~GITIGNORE)
-graal
-GITIGNORE
-
 system(<<~COMMAND)
   javac -d #{graal_path} #{ext_path}/*.java \
   && \

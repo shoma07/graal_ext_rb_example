@@ -5,7 +5,7 @@ VALUE rb_mGraalExtRbExample;
 
 // https://www.graalvm.org/latest/reference-manual/native-image/guides/build-native-shared-library/
 static VALUE
-graal_ext_rb_example_add(VALUE sekf, VALUE a, VALUE b)
+graal_ext_rb_example_add(VALUE self, VALUE a, VALUE b)
 {
   graal_isolate_t *isolate = NULL;
   graal_isolatethread_t *thread = NULL;

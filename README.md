@@ -1,4 +1,4 @@
-# Example of Ruby C extension With GraalVM Native Image
+# Example of Ruby C Extension with GraalVM Native Image
 
 ## Build Steps
 

@@ -8,8 +8,8 @@ Gem::Specification.new do |spec|
   spec.authors = ["shoma07"]
   spec.email = ["23730734+shoma07@users.noreply.github.com"]
 
-  spec.summary = "Example of Ruby C extension With GraalVM Native Image"
-  spec.description = "Example of Ruby C extension With GraalVM Native Image"
+  spec.summary = "Example of Ruby C Extension with GraalVM Native Image"
+  spec.description = "Example of Ruby C Extension with GraalVM Native Image"
   spec.homepage = "https://github.com/shoma07/graal_ext_rb_example"
   spec.license = "MIT"
   spec.required_ruby_version = ">= 2.6.0"

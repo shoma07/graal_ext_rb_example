@@ -12,6 +12,7 @@
 $ docker compose run --rm gem /bin/bash
 
 # in container
+$ rake build
 $ bin/console
 irb(main):001:0> GraalExtRbExample.add(1, 3)
 => 4

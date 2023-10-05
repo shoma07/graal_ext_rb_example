@@ -6,6 +6,17 @@
 2. native-image: create shared library from java class files.
 3. clang: create shared library from c ext files.
 
+## Example
+
+```sh
+$ docker compose run --rm gem /bin/bash
+
+# in container
+$ bin/console
+irb(main):001:0> GraalExtRbExample.add(1, 3)
+=> 4
+```
+
 ## Development
 
 ```sh

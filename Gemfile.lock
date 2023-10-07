@@ -2,13 +2,13 @@ PATH
   remote: .
   specs:
     graal_ext_rb_example (0.1.0)
-      ffi
 
 GEM
   remote: https://rubygems.org/
   specs:
     diff-lcs (1.5.0)
     ffi (1.16.3)
+    graaf (0.1.0)
     rake (13.0.6)
     rake-compiler (1.2.5)
       rake
@@ -30,6 +30,8 @@ PLATFORMS
   aarch64-linux
 
 DEPENDENCIES
+  ffi
+  graaf
   graal_ext_rb_example!
   rake (~> 13.0)
   rake-compiler
